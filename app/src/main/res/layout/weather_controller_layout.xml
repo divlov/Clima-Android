@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -41,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/changeCityButton"
-        android:src="@drawable/change_city_symbol_small"
+        app:srcCompat="@drawable/change_city_symbol_small"
         android:contentDescription="@string/change_city_description"
         android:background="@null"
         android:layout_alignParentTop="true"
@@ -61,7 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/weatherSymbolIV"
-            android:src="@drawable/dunno"
+            app:srcCompat="@drawable/dunno"
             android:contentDescription="@string/weather_description"
 
             />
